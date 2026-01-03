@@ -44,6 +44,7 @@ class HomePage extends StatelessWidget {
       SnackBar(
         content: Text(message),
         behavior: SnackBarBehavior.floating,
+        backgroundColor: Colors.black87,
         duration: const Duration(seconds: 2),
       ),
     );
