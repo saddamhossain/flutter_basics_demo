@@ -145,6 +145,7 @@ class HomePage extends StatelessWidget {
               break;
           }
         },
+
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
 
@@ -157,7 +158,7 @@ class HomePage extends StatelessWidget {
         ],
       ),
 
-      body: SafeArea(child: Center(child: Text('Home Content Goes Here'))),
+      body: Center(child: Text('Hello Md. Saddam Hossain Rana')),
     );
   }
 }
